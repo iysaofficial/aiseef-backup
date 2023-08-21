@@ -165,8 +165,8 @@ class Footer1 extends Component {
                       <li>
                         <span>
                           Made{' '}<i className="ti-heart"></i>
-                          <a href="https://github.com/redheet">
-                          {' '}Redhet
+                          <a href="https://www.iysa.or.id">
+                          {' '}IYSA IT
                           </a>
                         </span>
                       </li>
