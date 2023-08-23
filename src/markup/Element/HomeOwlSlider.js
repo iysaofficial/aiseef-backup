@@ -92,7 +92,10 @@ class HomeOwlSlider extends Component {
                 </h2>
               
                 <figure>
-                  <a href="https://www.youtube.com/watch?v=f0irpFOXnsE" target="_blank" className="site-button m-r10 white button-lg">After Movie</a>
+                  <a href="https://www.youtube.com/watch?v=f0irpFOXnsE" 
+                  rel="noreferrer noopener"
+                  target="_blank" 
+                  className="site-button m-r10 white button-lg">After Movie</a>
                 </figure>
                 {/* <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSfpWF8OgVzgrB4kwwKIbqvcSGz4qrWV2GW4TlGpyLoVhrqKTQ/viewform?usp=share_link"
@@ -134,7 +137,8 @@ class HomeOwlSlider extends Component {
                 </h2>
 
                 <figure>
-                  <a href="https://www.youtube.com/watch?v=f0irpFOXnsE" className="site-button m-r10 white button-lg">After Movie</a>
+                  <a href="https://www.youtube.com/watch?v=f0irpFOXnsE" 
+                  className="site-button m-r10 white button-lg">After Movie</a>
                 </figure>
 
 

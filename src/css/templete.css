@@ -7,6 +7,9 @@
 .header-nav .nav > li.active > a {
   color: #fff;
 }
+.faq-video{
+  cursor: pointer;
+}
 .header-nav .nav > li.active > a,
 .header-nav .nav > li:hover > a {
   color: #fff;

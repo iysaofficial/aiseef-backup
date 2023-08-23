@@ -117,6 +117,9 @@
 body, html {
      -moz-osx-font-smoothing: grayscale;
 }
+.faq-video{
+    cursor: pointer;
+}
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;

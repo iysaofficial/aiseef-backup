@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 class Footer1 extends Component {
   render() {
@@ -10,6 +9,7 @@ class Footer1 extends Component {
           <div className="footer-top bg-primary">
             <div className="container">
               <div className="row">
+
                 {/* <div className="col-5 col-lg-2 col-md-6 col-sm-6 footer-col-4">
                   <div className="widget widget_services border-0">
                     <h5 className="m-b30 text-white">
@@ -77,7 +77,9 @@ class Footer1 extends Component {
                       <li>
                         <i className="ti-location-pin"></i>
                         <strong>address</strong>
-                        <a href="https://goo.gl/maps/muWqimWHYjAgWSaQ8" target="_blank">
+                        <a href="https://goo.gl/maps/muWqimWHYjAgWSaQ8" 
+                        rel="noreferrer noopener"
+                        target="_blank">
                           {' '}
                           Jl. Kemang No. 63 RT 03
                           RW 06 
@@ -86,14 +88,18 @@ class Footer1 extends Component {
                       <li>
                         <i className="ti-mobile"></i>
                         <strong>phone</strong>
-                        <a href="https://wa.me/6281770914129" target="_blank">
+                        <a href="https://wa.me/6281770914129" 
+                        rel="noreferrer noopener"
+                        target="_blank">
                           +62 817-7091-4129
                         </a>
                       </li>
                       <li>
                         <i className="ti-email"></i>
                         <strong>email</strong>
-                        <a href="mailto:aseaninnovative.aisef@gmail.com" target="_blank">
+                        <a href="mailto:aseaninnovative.aisef@gmail.com"
+                        rel="noreferrer noopener"
+                         target="_blank">
                           aseaninnovative.aisef@gmail.com
                         </a>
                       </li>
@@ -119,6 +125,7 @@ class Footer1 extends Component {
                       <li>
                         <a
                           href="https://www.facebook.com/IYSA-Official-384186105532427/"
+                          rel="noreferrer noopener"
                           target="_blank"
                           className="site-button facebook circle mr-1"
                         >
@@ -128,6 +135,7 @@ class Footer1 extends Component {
                       <li>
                         <a
                           href="mailto:aseaninnovative.aisef@gmail.com"
+                          rel="noreferrer noopener"
                           target="_blank"
                           className="site-button google-plus circle mr-1"
                         >
@@ -138,6 +146,7 @@ class Footer1 extends Component {
                       <li>
                         <a
                           href="http://instagram.com/iysa_official"
+                          rel="noreferrer noopener"
                           target="_blank"
                           className="site-button instagram circle mr-1"
                         >

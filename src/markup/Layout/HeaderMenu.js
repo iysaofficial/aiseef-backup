@@ -79,7 +79,7 @@ class HeaderMenu extends Component {
                 <a
                   href="https://drive.google.com/file/d/1UdQv8-5s3M6Z-tNXfZAmS-jWoFuSM_sH/view?usp=share_link"
                   target="_blank"
-                  rel="noreferre noopener"
+                  rel="noreferrer"
                   className="dez-page"
                 >
                   Press Release 2023
@@ -398,6 +398,15 @@ class HeaderMenu extends Component {
                 </li>
               </li>
             </ul>
+          </li>
+          <li>
+            <Link
+              to={'./contact'}
+              rel="noreferrer noopener"
+              className="dez-page"
+            >
+              Contact
+            </Link>
           </li>
         </ul >
         {/* <li> */}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import Header from './../Layout/Header1';
 import Footer from './../Layout/Footer1';
 import PageTitle from './../Layout/PageTitle';
@@ -9,12 +8,8 @@ import VideoPopup from './../Element/VideoPopup';
 import bnr1 from './../../images/banner/bnr4.jpg';
 import pattern from './../../images/pattern/pic1.jpg';
 import about from './../../images/about/pict100.png';
-
-const iconBlog = [
-	{icon: <i className="flaticon-bar-chart" />, title:'Make it Simple', },
-	{icon: <i className="flaticon-trophy" />, title:'Unique design', },
-	{icon: <i className="flaticon-devices" />, title:'True Responsiveness', },
-];
+import AccordionBlog2 from '../Element/AccodcionBlog2';
+import AccordionBlog3 from '../Element/AccordionBlog3';
 
 
 class Faqs extends Component {
@@ -26,7 +21,7 @@ class Faqs extends Component {
                 <div className="page-content bg-white">
                     {/* <!-- inner page banner --> */}
                     <div className="dlab-bnr-inr dlab-bnr-inr-sm overlay-primary bg-pt" style={{ backgroundImage: "url(" + bnr1 + ")" }}>
-                        <PageTitle motherMenu="Faq's"  activeMenu="Faq's" />
+                        <PageTitle motherMenu="Faq's" activeMenu="Faq's" />
                     </div>
                     {/* <!-- inner page banner END --> */}
                     {/* <!-- contact area --> */}
@@ -41,13 +36,21 @@ class Faqs extends Component {
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-6 col-md-12 m-b30" >
-                                        <div className="faq-video">
-											<VideoPopup />
+                                        <div className="faq-video" >
+                                            <VideoPopup />
                                             <img src={about} alt="" className="img-cover radius-sm" />
+                                            
                                         </div>
                                     </div>
                                     <div className="col-lg-6 col-md-12 m-b30">
+                                        <h3 className='text-center'>After Register</h3>
                                         <AccordionBlog />
+                                        <h3 className='text-center'>During The Event</h3>
+                                        <AccordionBlog2 />
+                                        <h3 className='text-center'>After The Event</h3>
+                                        <AccordionBlog3 />
+                                        
+
                                     </div>
                                 </div>
                                 {/* <!-- Faq Info --> */}
